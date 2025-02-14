@@ -1,0 +1,143 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+html, body {
+  
+  margin-bottom: 60px;
+  height: 100%;
+  
+}
+.submit-button{
+    padding: 5px;
+}
+th, td{
+    padding: 10px;
+    vertical-align: middle;
+    color:white;
+
+}
+.box {
+    backdrop-filter: blur(30px);
+    height: 500px;
+    width: 100%;
+    overflow: auto;
+    border-radius: 5px;
+    border: 1px solid #ffffff80;
+    padding: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+    
+}
+th{
+    position: sticky;
+    top: 0;
+    color:white;
+}
+#detail-button{
+    padding: 15px;
+}
+body {
+    background: url('/images/MovieBackground.jpg') no-repeat center center fixed;
+    
+    background-size: cover;
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+}
+.homies {
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid #ffffff80;
+    backdrop-filter: blur(5px);
+}
+
+h1{
+    color:white;
+}
+h3 {
+    color: white;
+}
+h4 {
+    color: white;
+}
+h5 {
+    color: white;
+}
+.yow {
+    backdrop-filter: blur(10px);
+    border: 1px solid #ffffff80;
+    border-radius: 10px;
+}
+
+.control-label{
+    color:white;
+    font-weight: bold;
+}
+.row {
+    backdrop-filter: blur(10px);
+    border: 1px solid #ffffff80;
+    width: 530px;
+    border-radius: 10px;
+   
+}
+.form-control{
+    width: 500px;
+}
+
+.col-sm-2 {
+    word-spacing: 30px;
+    color: white;
+    
+
+}
+.col-sm-10 {
+    padding-left: 60px;
+    color: white;
+    text-align: left;
+}
+.col-md-4{
+    color: white;
+}
+.bg-light {
+    height: 180vh;
+    backdrop-filter: blur(10px);
+    color: white;
+}
+.container-fluid {
+    background-color: gray;
+    position: sticky;
+}
+
+.back {
+    backdrop-filter: blur(10px);
+    border: 1px solid #ffffff80;
+}
+
+
